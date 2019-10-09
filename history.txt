@@ -1,0 +1,30 @@
+  540  mkdir quetes
+  541  cd quetes
+  543  brew install tree
+  544  brew install wget
+  545  brew install unzip
+  551  brew link wget
+  552  wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+  553  unzip planets.zip
+  554  eog planets
+  556  cd planets
+  566  mkdir -p real/telluric
+  568  mkdir -p real/gas-giants
+  569  mkdir -p real/dwarf-planets
+  573  mkdir fictional
+  574  mkdir inhabited
+  577  mv jupiter.jpeg mercury.jpeg pluto.jpeg saturn.jpeg venus.jpeg earth.jpeg mars.jpeg neptune.jpeg  uranus.jpeg /Users/Yves/documents/wild/quetes/planets/real
+  581  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg /Users/Yves/documents/wild/quetes/planets/fictional
+  583  cd real
+  585  cp earth.jpeg /Users/Yves/documents/wild/quetes/planets/inhabited/
+  587  cd ..
+  589  cd fictional/
+  591  cp . /Users/Yves/documents/wild/quetes/planets/inhabited/
+  592  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg /Users/Yves/documents/wild/quetes/planets/inhabited/
+  593  cd ..
+  596  cd real
+  598  cd ..
+  599  rm /Users/Yves/documents/wild/quetes/planets/real/pluto.jpeg 
+  604  rm -r real
+  606  tree
+  607  history 
